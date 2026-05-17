@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print & Bites - Cafe & Digital Printing</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://tailwindcss.com"></script>
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://unsplash.com');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased font-sans">
+
+    <!-- NAVIGATION -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-amber-600 tracking-wide">Print<span class="text-blue-600">&Bites</span></a>
+            <div class="hidden md:flex space-x-6 font-medium">
+                <a href="#kuliner" class="hover:text-amber-600 transition">Menu Kuliner</a>
+                <a href="#printing" class="hover:text-blue-600 transition">Layanan Cetak</a>
+                <a href="#tentang" class="hover:text-gray-600 transition">Tentang Kami</a>
+            </div>
+            <a href="https://wa.me" class="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-full text-sm font-semibold transition shadow-md">Order via WA</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero-bg h-[500px] flex items-center justify-center text-center px-4">
+        <div class="text-white max-w-2xl">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">Nongkrong Santai, Tugas & Cetakan Selesai!</h1>
+            <p class="text-lg text-gray-200 mb-8">Nikmati kopi premium dan hidangan lezat selagi dokumen, merchandise, atau banner usaha Anda kami cetak dengan kualitas terbaik.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#kuliner" class="bg-amber-500 hover:bg-amber-600 text-white font-bold px-6 py-3 rounded-lg shadow-lg transition">Lihat Menu Kafe</a>
+                <a href="#printing" class="bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3 rounded-lg shadow-lg transition">Pesan Cetakan</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- KULINER SECTION -->
+    <section id="kuliner" class="max-w-6xl mx-auto px-4 py-16">
+        <div class="text-center mb-12">
+            <span class="text-amber-600 font-bold tracking-widest text-sm uppercase">Dapur Kami</span>
+            <h2 class="text-3xl font-bold mt-1">Menu Kuliner Terfavorit</h2>
+            <div class="w-16 h-1 bg-amber-500 mx-auto mt-3"></div>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Item 1 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <img src="https://unsplash.com" alt="Platter" class="h-48 w-full object-cover">
+                <div class="p-5">
+                    <h3 class="text-xl font-bold mb-2">Platter Combo Lembur</h3>
+                    <p class="text-gray-600 text-sm mb-4">Campuran kentang goreng, sosis, dan nugget. Teman setia saat kejar *deadline*.</p>
+                    <span class="text-amber-600 font-bold text-lg">Rp 28.000</span>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <img src="https://unsplash.com" alt="Kopi" class="h-48 w-full object-cover">
+                <div class="p-5">
+                    <h3 class="text-xl font-bold mb-2">Es Kopi Susu Printer</h3>
+                    <p class="text-gray-600 text-sm mb-4">Kopi espresso ganda dengan susu segar dan gula aren murni. Bikin mata melek seharian.</p>
+                    <span class="text-amber-600 font-bold text-lg">Rp 18.000</span>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <img src="https://unsplash.com" alt="Pizza" class="h-48 w-full object-cover">
+                <div class="p-5">
+                    <h3 class="text-xl font-bold mb-2">Rice Bowl Ayam Sambal Matah</h3>
+                    <p class="text-gray-600 text-sm mb-4">Nasi hangat dengan ayam krispi melimpah dan siraman sambal matah Bali yang segar.</p>
+                    <span class="text-amber-600 font-bold text-lg">Rp 25.000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRINTING SECTION -->
+    <section id="printing" class="bg-gray-100 py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="text-blue-600 font-bold tracking-widest text-sm uppercase">Studio Cetak</span>
+                <h2 class="text-3xl font-bold mt-1">Layanan Digital Printing</h2>
+                <div class="w-16 h-1 bg-blue-600 mx-auto mt-3"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Layanan 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 hover:border-blue-500 transition">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 font-bold text-xl mb-4">📄</div>
+                    <h3 class="text-lg font-bold mb-2">Cetak Dokumen & Jilid</h3>
+                    <p class="text-gray-600 text-sm mb-4">Tugas akhir, skripsi, proposal, laporan tahunan. Cetak kilat hitam-putih atau warna.</p>
+                    <p class="text-xs text-gray-400">Mulai dari Rp 500 / lembar</p>
+                </div>
+                <!-- Layanan 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 hover:border-blue-500 transition">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 font-bold text-xl mb-4">🏷️</div>
+                    <h3 class="text-lg font-bold mb-2">Stiker Label Kemasan</h3>
+                    <p class="text-gray-600 text-sm mb-4">Cetak stiker branding untuk botol, box makanan, atau plastik. Bahan ritrama/bontax berkualitas.</p>
+                    <p class="text-xs text-gray-400">Mulai dari Rp 10.000 / lembar A3</p>
+                </div>
+                <!-- Layanan 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 hover:border-blue-500 transition">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 font-bold text-xl mb-4">👕</div>
+                    <h3 class="text-lg font-bold mb-2">Custom Merchandise</h3>
+                    <p class="text-gray-600 text-sm mb-4">Cetak mug, kaos DTF, totebag, id card, hingga lanyard untuk kebutuhan event atau kantor.</p>
+                    <p class="text-xs text-gray-400">Harga grosir tersedia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTEGRASI N8N FORM TRIGGER (CONTOH) -->
+    <section class="max-w-4xl mx-auto px-4 py-16">
+        <div class="bg-gradient-to-r from-blue-600 to-amber-500 rounded-2xl shadow-xl p-8 md:p-12 text-white">
+            <h3 class="text-2xl md:text-3xl font-bold mb-3">Punya File Siap Cetak? Atau Mau Pesan Katering?</h3>
+            <p class="text-blue-500_light mb-6 opacity-90">Isi formulir cepat di bawah ini. Tim kami akan segera menghitung total biaya dan menghubungi Anda.</p>
+            
+            <!-- Form ini nantinya bisa diarahkan ke Webhook URL n8n Anda -->
+            <form action="#" method="POST" class="grid sm:grid-cols-2 gap-4 text-gray-800">
+                <input type="text" placeholder="Nama Lengkap" class="p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400" required>
+                <input type="tel" placeholder="Nomor WhatsApp" class="p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400" required>
+                <select class="p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400 col-span-2">
+                    <option value="">-- Pilih Jenis Layanan --</option>
+                    <option value="printing">Cetak Dokumen / Banner / Stiker</option>
+                    <option value="kuliner">Pesan Makanan / Katering / Reservasi Tempat</option>
+                    <option value="keduanya">Kombinasi (Kerja Kelompok + Cetak Tugas)</option>
+                </select>
+                <textarea placeholder="Tulis detail pesanan Anda di sini..." rows="3" class="p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400 col-span-2"></textarea>
+                <button type="submit" class="bg-gray-900 hover:bg-black text-white font-bold p-3 rounded-lg transition col-span-2 shadow-md">Kirim Penawaran</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 text-center py-6 text-sm">
+        <p>&copy; 2026 Print & Bites Cafe. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
